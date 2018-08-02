@@ -53,15 +53,19 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessingdescriptors \
-    libqcomvoiceprocessing \
-    libvolumelistener
+    libqcomvoiceprocessing
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.primary.msm8992 \
     audio.r_submix.default \
-    audio.usb.default \
-    libaudio-resampler
+    audio.usb.default
+
+PRODUCT_PACKAGES += \
+    tinycap \
+    tinymix \
+    tinypcminfo \
+    tinyplay
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
